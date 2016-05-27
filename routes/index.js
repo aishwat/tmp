@@ -5,6 +5,6 @@ var profile = require('./profile');
 
 /* GET home page. */
 router.post('/downloadpass', profile.get,pass.generate)
-// router.post('/', profile.get,pass.generate) //TEST
+// router.get('/', profile.get,pass.generate) //TEST
 
 module.exports = router;
